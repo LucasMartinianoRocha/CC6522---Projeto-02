@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Enviar OV por Quantidade de Ações</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>Enviar OV por Quantidade de Ações</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
+          UMLUseCase
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='003282f0c948e87e0509aadbb6d11907.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar OV por Quantidade de Ações</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Descrição:
+Este caso de uso descreve o processo pelo qual um usuário, por meio da interface do sistema Home Broker da Soy Stocks (S2), envia uma ordem de venda de ações para a Bolsa de Valores de São Paulo (B3), especificando a quantidade de ações a serem vendidas. Essa funcionalidade é essencial para permitir que os usuários controlem o volume de ações a serem transacionadas em uma ordem de venda.</p>
+
+<p>Ator Principal: 
+Usuário</p>
+
+<p>Stakeholders e Interesses:
+Usuário: Interessado em vender uma quantidade específica de ações por meio do Home Broker.
+Soy Stocks (S2): Interessada em fornecer uma plataforma eficiente e personalizável para que os usuários realizem transações de venda de ações.
+Bolsa de Valores de São Paulo (B3): Interessada em receber e processar ordens de venda com especificações claras sobre a quantidade de ações a serem transacionadas.</p>
+
+<p>Pré-condições:
+O usuário deve estar autenticado no sistema Home Broker.
+O usuário deve possuir as ações que pretende vender.
+O sistema Home Broker deve estar devidamente autenticado e autorizado para enviar ordens de venda para a B3.</p>
+
+<p>Fluxo Básico:
+O usuário acessa a interface do Home Broker e inicia o processo de venda de suas ações, especificando a quantidade desejada.
+O sistema Home Broker valida a ordem, verificando se todos os parâmetros necessários estão corretos e se o usuário possui as ações que pretende vender.
+O sistema gera a mensagem padronizada para a ordem de venda, incluindo a quantidade de ações especificada, e a envia para a Bolsa de Valores (B3) por meio de APIs de integração.
+A Bolsa de Valores recebe a ordem, valida-a e a processa conforme as regras do mercado.
+A Bolsa de Valores envia uma confirmação de execução ou rejeição da ordem de volta ao sistema Home Broker.
+O sistema Home Broker atualiza o status da ordem no sistema do usuário, refletindo se a ordem foi executada ou rejeitada.</p>
+
+<p>Fluxos Alternativos:
+Se a validação da ordem falhar, o sistema Home Broker informa ao usuário sobre os problemas encontrados e não envia a ordem de venda para a B3.
+Se houver problemas técnicos durante o envio da ordem de venda para a B3, o sistema Home Broker deve informar ao usuário sobre a impossibilidade temporária de realizar essa operação.</p>
+
+<p>Pós-condições:
+O usuário recebe uma confirmação do sistema Home Broker sobre o status da ordem de venda.
+O sistema Home Broker atualiza o histórico de transações do usuário.</p>
+
+<p>Regras de Negócio:
+O sistema Home Broker deve seguir os padrões e protocolos estabelecidos pela Bolsa de Valores para o envio de ordens de venda.
+A validação da ordem de venda deve ser rigorosa para garantir que apenas ordens válidas sejam enviadas para a B3.</p>
+
+<p>Exceções:
+Se a validação da ordem de venda falhar, o sistema Home Broker deve informar ao usuário sobre os problemas encontrados e impedir o envio da ordem.
+Se houver problemas técnicos durante o envio da ordem de venda para a B3, o sistema Home Broker deve informar ao usuário sobre a impossibilidade temporária de realizar essa operação.</p>
+
+<p>Notas Adicionais:
+Esta funcionalidade oferece flexibilidade ao usuário, permitindo que ele especifique a quantidade exata de ações a serem vendidas em uma ordem, proporcionando maior controle sobre suas transações.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Actors</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='57d3a7c6c1f80a7b9f077233598e4b07.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuário</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>Enviar OV por Quantidade de Ações</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>extensionPoints</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='926c308f37a6d497b868a71f42739e15.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OV por Quantidade de Ações→Enviar Ordem de Venda)</a></li>
+        
+        <li><a href='550da3253794906fd0404949122e62b9.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuário—Enviar OV por Quantidade de Ações)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='926c308f37a6d497b868a71f42739e15.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OV por Quantidade de Ações→Enviar Ordem de Venda)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>

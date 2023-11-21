@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Enviar Ordem de Compra</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>Enviar Ordem de Compra</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
+          UMLUseCase
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7ed86cb5c144e53c9de75b3628346372.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar Ordem de Compra</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Descrição:
+Este caso de uso descreve o processo pelo qual um usuário pode enviar uma ordem de compra para adquirir ações por meio do sistema Home Broker da Soy Stocks (S2). A funcionalidade permite que os usuários participem ativamente do mercado de ações, indicando o desejo de comprar um determinado número de ações de uma empresa listada na B3.</p>
+
+<p>Ator Principal: 
+Usuário</p>
+
+<p>Stakeholders e Interesses:
+Usuário: Interessado em comprar ações específicas por meio da plataforma Home Broker.
+Soy Stocks (S2): Interessada em facilitar as transações de compra de ações e fornecer uma interface eficiente e segura para os usuários.</p>
+
+<p>Pré-condições:
+O usuário deve estar autenticado no sistema.
+O usuário deve ter fundos disponíveis em sua conta para cobrir o custo da ordem de compra.</p>
+
+<p>Fluxo Básico:
+O usuário acessa a seção de compra no Home Broker.
+O usuário seleciona a ação desejada e especifica a quantidade de ações que deseja comprar.
+O sistema valida a disponibilidade de fundos na conta do usuário.
+Se houver fundos suficientes, o sistema gera uma ordem de compra contendo os detalhes fornecidos pelo usuário.
+O usuário revisa os detalhes da ordem de compra.
+O usuário confirma e envia a ordem de compra.
+O sistema processa a ordem de compra e registra a transação no histórico da conta do usuário.
+O usuário recebe uma confirmação da ordem de compra.</p>
+
+<p>Fluxos Alternativos:
+Se o usuário não tiver fundos suficientes em sua conta, o sistema notifica sobre a impossibilidade de processar a ordem de compra.
+O sistema pode permitir que o usuário defina parâmetros adicionais, como preço limite, na ordem de compra.</p>
+
+<p>Pós-condições:
+A ordem de compra é registrada no sistema e a transação é processada.</p>
+
+<p>Regras de Negócio:
+O sistema pode oferecer informações em tempo real sobre a cotação atual da ação para auxiliar o usuário na tomada de decisão.
+As ordens de compra podem ser sujeitas a taxas de corretagem, conforme as políticas da Soy Stocks (S2).</p>
+
+<p>Exceções:
+Se houver problemas técnicos durante o processo de envio da ordem de compra, o sistema deve informar ao usuário sobre a impossibilidade temporária de realizar essa operação.</p>
+
+<p>Notas Adicionais:
+Essa funcionalidade é central para a experiência do usuário no Home Broker, permitindo a participação ativa no mercado de ações. Medidas de segurança, como confirmação da ordem, são importantes para evitar transações não intencionais.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Actors</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='57d3a7c6c1f80a7b9f077233598e4b07.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuário</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Extending Use Cases</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='935665a8f8fd1b3eb49a8917b3c2c9df.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Cancelar Ordem de Compra</a></li>
+        
+        <li><a href='09ec7cf5e7ffeaf5b2d7ed86faee59b0.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Modificar Ordem de Compra</a></li>
+        
+        <li><a href='ffe9a06e3d6a0918efdb20a69083c4c2.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar OC por Quantidade de Ações</a></li>
+        
+        <li><a href='32d434f90f7d40a434a49221f603f8d8.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar OC por Valor Financeiro</a></li>
+        
+        <li><a href='a89ded7b7d95e074d5c00d2bf9829f54.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar OC a Mercado</a></li>
+        
+        <li><a href='c7efc1b0e85ee87545e692899cf44f01.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar OC com Gatilho</a></li>
+        
+        <li><a href='86d7a8e74b383ac9ded1b3cdc00f1d72.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Comprar Ação Fracionada ou Lote Automaticamente</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>Enviar Ordem de Compra</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>extensionPoints</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='493909ef5f0e798fffbfb95387d4c2ae.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar Ordem de Venda</a></li>
+        
+        <li><a href='ff2f3a9986b9e0f05a018695198ea472.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Logar no Sistema</a></li>
+        
+        <li><a href='f0309e33fa59b15548cdba3436e4e1bd.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar Ordem para a B3</a></li>
+        
+        <li><a href='ce0ccbb8442720052b83b0cf8505516c.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Verificar Disponibilidade de Ações na B3</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='ff2f3a9986b9e0f05a018695198ea472.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Logar no Sistema</a></li>
+        
+        <li><a href='493909ef5f0e798fffbfb95387d4c2ae.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar Ordem de Venda</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='472b8aea0c353d97df7bff79c252b186.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Logar no Sistema→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='076a47e0efeedb2343661967e722aa0a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Status da OC)</a></li>
+        
+        <li><a href='bbc44b1a693091069dfdb954e96844c6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Histórico de OC)</a></li>
+        
+        <li><a href='61063b59d557d34142a9fd737ceb4001.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Visualizar OC relacionadas a uma ação selecionada)</a></li>
+        
+        <li><a href='4cfa28570766cf0d9f8d229515f2f87f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Status da OC)</a></li>
+        
+        <li><a href='678f7b4335cc6f3649611479a5bec17f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Histórico de OC)</a></li>
+        
+        <li><a href='043bdf23114cab983330901294dff8ae.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Enviar Ordem de Venda)</a></li>
+        
+        <li><a href='ad474905df36f796275af86c29a556bd.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Logar no Sistema)</a></li>
+        
+        <li><a href='09f4181e5f040f576c6ecd027f8e471e.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Enviar Ordem para a B3)</a></li>
+        
+        <li><a href='37d7d5fa7cb5a62e849e2a75baa3bc43.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Verificar Disponibilidade de Ações na B3)</a></li>
+        
+        <li><a href='0b61eeabe846405a214c1899988d3e2a.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Cancelar Ordem de Compra→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='146a496e4d9cd3e7fceecfa900da8975.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Modificar Ordem de Compra→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='fb44f800d0b3ee191811debbfef647f3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Consultar Status da OC—Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='034504d9fe4f25cfb00457c78b17a542.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Consultar Histórico de OC—Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='37d4b7411f7c7c1c5bbf24b58b05942c.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OC por Quantidade de Ações→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='65c76b49a5ea3c61592b31b10067faaf.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OC por Valor Financeiro→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='5d8a1ba0d9c2d169024495c028f568b5.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OC a Mercado→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='60ab837e823706e08902c836e3accbd8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Visualizar OC relacionadas a uma ação selecionada—Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='1bff6e3e41e6e9c111f9c2d545842364.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Enviar OC com Gatilho→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='0250bd75b93f767bc35bbb195a4dcb26.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Venda→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='9d35896cc40d0d6c4fdad6971086dcea.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Comprar Ação Fracionada ou Lote Automaticamente→Enviar Ordem de Compra)</a></li>
+        
+        <li><a href='d69b57eae30cc8f4cea681884d0e760d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuário—Enviar Ordem de Compra)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='076a47e0efeedb2343661967e722aa0a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Status da OC)</a></li>
+        
+        <li><a href='bbc44b1a693091069dfdb954e96844c6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Histórico de OC)</a></li>
+        
+        <li><a href='61063b59d557d34142a9fd737ceb4001.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Visualizar OC relacionadas a uma ação selecionada)</a></li>
+        
+        <li><a href='4cfa28570766cf0d9f8d229515f2f87f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Status da OC)</a></li>
+        
+        <li><a href='678f7b4335cc6f3649611479a5bec17f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Enviar Ordem de Compra—Consultar Histórico de OC)</a></li>
+        
+        <li><a href='043bdf23114cab983330901294dff8ae.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Enviar Ordem de Venda)</a></li>
+        
+        <li><a href='ad474905df36f796275af86c29a556bd.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Logar no Sistema)</a></li>
+        
+        <li><a href='09f4181e5f040f576c6ecd027f8e471e.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Enviar Ordem para a B3)</a></li>
+        
+        <li><a href='37d7d5fa7cb5a62e849e2a75baa3bc43.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Enviar Ordem de Compra→Verificar Disponibilidade de Ações na B3)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>

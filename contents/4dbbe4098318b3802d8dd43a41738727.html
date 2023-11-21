@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Obter Cotação das Ações na Carteira</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>Obter Cotação das Ações na Carteira</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
+          UMLUseCase
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='4dbbe4098318b3802d8dd43a41738727.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Obter Cotação das Ações na Carteira</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Descrição:
+Este caso de uso descreve como o sistema Home Broker, operado pela corretora Soy Stocks (S2), atende à operação de obter as cotações atualizadas das ações presentes na carteira do usuário. A funcionalidade permite que o usuário visualize os valores mais recentes dos ativos, auxiliando na tomada de decisões de investimento.</p>
+
+<p>Ator Principal: 
+Soy Stocks - S2</p>
+
+<p>Stakeholders e Interesses:
+Usuário: Interessado em obter informações atualizadas sobre o valor das ações presentes em sua carteira de investimentos.</p>
+
+<p>Pré-condições:
+O usuário deve estar autenticado no sistema Home Broker.</p>
+
+<p>Fluxo Básico:
+O sistema Home Broker recebe a requisição do usuário para obter as cotações das ações em sua carteira.
+O sistema verifica as ações presentes na carteira do usuário.
+Para cada ação, o sistema consulta a Bolsa de Valores de São Paulo (B3) para obter a cotação mais recente.
+As cotações atualizadas são apresentadas ao usuário, seja em uma interface específica ou integradas à visualização da carteira.</p>
+
+<p>Fluxos Alternativos:
+Se houver uma falha na obtenção das cotações de algumas ações, o sistema pode notificar o usuário sobre a impossibilidade temporária de acessar determinadas informações.</p>
+
+<p>Pós-condições:
+O usuário obteve com sucesso as cotações atualizadas das ações presentes em sua carteira.</p>
+
+<p>Regras de Negócio:
+O sistema Home Broker deve ser capaz de consultar a B3 para obter informações de cotação em tempo real.
+As cotações devem ser apresentadas de forma clara e organizada para o usuário.</p>
+
+<p>Exceções:
+Se houver uma falha técnica durante a obtenção das cotações, o usuário pode ser notificado sobre a impossibilidade temporária de acessar as informações.</p>
+
+<p>Notas Adicionais:
+A funcionalidade de obter cotações das ações na carteira é essencial para que o usuário possa tomar decisões informadas sobre seus investimentos, garantindo uma experiência de investimento transparente e atualizada.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Actors</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='57d3a7c6c1f80a7b9f077233598e4b07.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuário</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Extending Use Cases</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e59e358568e9febec065c3045a4e2fc8.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Personalizar Visualização de Cotações</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>Obter Cotação das Ações na Carteira</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>extensionPoints</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='25dc7cddeb618059788109e0acf052c7.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Visualizar Carteira de Ações</a></li>
+        
+        <li><a href='f0309e33fa59b15548cdba3436e4e1bd.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Enviar Ordem para a B3</a></li>
+        
+        <li><a href='7134d7e96c7d1c887f260346789e463f.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Obter Informações de Cotação da B3</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e59e358568e9febec065c3045a4e2fc8.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Personalizar Visualização de Cotações</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='f4f9f94b513f05e0cbbe92b2d4113ec4.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Visualizar Carteira de Ações)</a></li>
+        
+        <li><a href='379617e03936b75895c9eeec3741f854.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Obter Cotação das Ações na Carteira→Visualizar Carteira de Ações)</a></li>
+        
+        <li><a href='379f4a050187b4057a490eba34b27b01.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Enviar Ordem para a B3)</a></li>
+        
+        <li><a href='f6966a2b8c872af580edda3296707fc1.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Obter Informações de Cotação da B3)</a></li>
+        
+        <li><a href='4d9e9b146171c48028b841e2b08e2571.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Personalizar Visualização de Cotações→Obter Cotação das Ações na Carteira)</a></li>
+        
+        <li><a href='e6ac37bed35228aa39760c5c45195917.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Personalizar Visualização de Cotações→Obter Cotação das Ações na Carteira)</a></li>
+        
+        <li><a href='787ce87fa65145046a2ac96c7d006571.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuário—Obter Cotação das Ações na Carteira)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='f4f9f94b513f05e0cbbe92b2d4113ec4.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Visualizar Carteira de Ações)</a></li>
+        
+        <li><a href='379617e03936b75895c9eeec3741f854.html'><span class='node-icon staruml-icon icon-UMLExtend'></span>(Obter Cotação das Ações na Carteira→Visualizar Carteira de Ações)</a></li>
+        
+        <li><a href='379f4a050187b4057a490eba34b27b01.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Enviar Ordem para a B3)</a></li>
+        
+        <li><a href='f6966a2b8c872af580edda3296707fc1.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Obter Cotação das Ações na Carteira→Obter Informações de Cotação da B3)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>
